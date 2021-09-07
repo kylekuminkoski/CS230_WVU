@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { CarouselComponent } from './components/carousel.component';
+import { CollapseMenuComponent } from './components/collapsemenu.component';
 import { HeaderComponent } from './header/header.component';
 import { SearchBarComponent } from './header/searchBar.component';
 
@@ -9,7 +11,9 @@ import { SearchBarComponent } from './header/searchBar.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    SearchBarComponent
+    SearchBarComponent,
+    CollapseMenuComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule
