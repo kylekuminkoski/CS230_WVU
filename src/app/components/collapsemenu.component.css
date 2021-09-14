@@ -1,0 +1,48 @@
+.third-navbar{
+    background-image: url("../../assets/DeathLoopMenuBar.webp");
+
+    height: 75px;
+
+    background-size:1400px ;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    align-content: center;
+
+    background-color: #270301
+}
+
+.third-navbar-button{
+    margin-top: 50px;
+
+    text-decoration-style: none ;
+
+    color: white;
+    
+}
+
+.iconFormat{
+ 
+    height: 30px;
+
+    width: 30px;
+
+    filter: invert();
+
+
+}
+
+
+
+.menu-body{
+
+background-color: #270301;
+
+}
+
+.icon-white{
+
+    color:white;
+}

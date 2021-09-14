@@ -1,0 +1,42 @@
+.cardBorder{
+    border: none;
+
+    width: 655px;
+
+    padding: 0;
+
+    margins:0;
+
+    
+
+}
+
+.cardTitle{
+
+    line-height: 20px;
+
+    font-weight:600;
+
+    font-size: 1rem;
+
+    color: black;
+
+    text-decoration-line: none;
+
+    margin: 8px 0 0;
+}
+
+.cardSubtitle{
+
+    line-height: 20px;
+
+    font-weight: 400;
+
+    font-size: .875rem;
+
+    color: black;
+
+    text-decoration-line: none;
+
+    margin: 12px 0 0;
+}

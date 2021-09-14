@@ -1,0 +1,29 @@
+.rewardsBar {
+
+background-color: #D6D7D6;
+
+text-decoration-color: black;
+
+align-items: center;
+
+height: 36px;
+
+justify-content: center;
+
+}
+
+.rewardsText{
+
+    font-size: .875rem;
+
+    font-weight: 700;
+
+    line-height: 1;
+
+    padding-top: 1;
+
+    padding-right: 3px;
+
+    font-family: Montserrat, sans-serif;
+
+}
