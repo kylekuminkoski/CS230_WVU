@@ -1,0 +1,29 @@
+.cardBorder{
+    border: none;
+
+    padding: 2px;
+
+    margins:0;
+    margin-left: 15px;
+
+    
+    
+
+}
+
+.cardTitle{
+
+    line-height: 20px;
+
+    font-weight:600;
+
+    font-size: 1rem;
+
+    color: black;
+
+    text-decoration-line: none;
+
+    margin: 8px 0 0;
+
+}
+

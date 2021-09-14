@@ -1,0 +1,35 @@
+.cardMargin{
+    margin:0;
+    border:0;
+    padding: 5;
+    width: 262px;
+    
+}
+
+.margin{
+    margin:0;
+    border:5px;
+    padding: 0;
+    width: 1500px;
+   
+}
+
+.buttonFill{
+    filter: invert();
+
+    
+
+    width: 25px;
+}
+
+.columns{
+    column-width: 275px;
+}
+
+.topSellerFormat{
+    margin:0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:#282828;
+    
+}
