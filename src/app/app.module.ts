@@ -18,6 +18,7 @@ import { RewardsBarComponent } from './rewardsbar/rewardsbar.component';
 import { LayoutSignInComponent } from './sign-in-page/layout/layout.component';
 import { LayoutTradeInsComponent } from './trade-ins-page/layout/layout.component';
 import { AppRoutingModule } from './app-routing.module';
+import { LayoutBodyComponent } from './homebody/layout.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { AppRoutingModule } from './app-routing.module';
     LayoutTradeInsComponent,
     LayoutPowerUpComponent,
     LayoutSignInComponent,
-    LayoutCartsPageComponent
+    LayoutCartsPageComponent,
+    LayoutBodyComponent
     
   ],
   imports: [
