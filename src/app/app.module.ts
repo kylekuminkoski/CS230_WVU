@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { LayoutCartsPageComponent } from './cart-page/layout.component';
 import { CarouselComponent } from './components/carousel.component';
 import { NintendoCardComponent } from './components/carouselCards/nintendo.component';
 import { OculusCardComponent } from './components/carouselCards/oculusCard.component';
@@ -12,7 +13,11 @@ import { HeaderComponent } from './header/header.component';
 import { SearchBarComponent } from './header/searchBar.component';
 import { LayoutMainComponent } from './layout/layout.component';
 import { NewReleasesComponent } from './newreleases/newreleases.component';
+import { LayoutPowerUpComponent } from './powerup-rewards-page/layout/layout.component';
 import { RewardsBarComponent } from './rewardsbar/rewardsbar.component';
+import { LayoutSignInComponent } from './sign-in-page/layout/layout.component';
+import { LayoutTradeInsComponent } from './trade-ins-page/layout/layout.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -27,10 +32,16 @@ import { RewardsBarComponent } from './rewardsbar/rewardsbar.component';
     OculusCardComponent,
     CarouselComponent,
     NintendoCardComponent,
-    XboxCardComponent
+    XboxCardComponent,
+    LayoutTradeInsComponent,
+    LayoutPowerUpComponent,
+    LayoutSignInComponent,
+    LayoutCartsPageComponent
+    
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
