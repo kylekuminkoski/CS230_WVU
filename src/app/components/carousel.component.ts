@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { Card } from './carouselCards/cards.model';
+import { cards } from './carouselCards/mock-cards';
+
 
 @Component({
   selector: 'app-carousel',
@@ -8,6 +11,13 @@ import { Component } from '@angular/core';
 })
 export class CarouselComponent {
 
+  cardvar:Card[] = [];
     
+  constructor(){
+      for(var cardcomp of cards){
+        this.cardvar.push(new Card(cardcomp));
+  
+      }
+    }
   
 }

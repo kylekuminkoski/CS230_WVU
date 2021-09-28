@@ -6,19 +6,12 @@
 <div id="carouselExampleControls" class="carousel slide margin" data-bs-ride="carousel">
     <div class="carousel-inner d-flex">
       <div class="carousel-item active cardMargins justify-content-center">
-          <div class = "row">
-              <div class = "col columns">
-              <app-oculuscard class = "margin"></app-oculuscard>
-            </div>
-            <div class = "col columns">
-            <app-nintendocard class = "margin"></app-nintendocard>
-        </div>
-        <div class = "col columns">
-            <app-xboxcard class = "margin"></app-xboxcard>
-        </div>
-        </div>
-        
-      </div>
+          <div class = "d-flex flex-row" >
+              <div ngFor="let cardvar of Card">
+                <app-carouselcard title={{cardvar.title}} imagePath= {{cardvar.imagePath}}></app-carouselcard>
+              </div>
+
+    </div>
       
      
     </div>

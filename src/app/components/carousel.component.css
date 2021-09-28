@@ -1,8 +1,8 @@
 .cardMargin{
     margin:0;
     border:0;
-    padding: 5;
-    width: 262px;
+    padding: 0;
+    width: 100px;
     
 }
 
@@ -10,7 +10,7 @@
     margin:0;
     border:5px;
     padding: 0;
-    width: 1500px;
+    width: 2000px;
    
 }
 
@@ -23,7 +23,7 @@
 }
 
 .columns{
-    column-width: 275px;
+    column-width: 200px;
 }
 
 .topSellerFormat{
