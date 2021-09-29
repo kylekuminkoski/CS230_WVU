@@ -1,8 +1,5 @@
 .cardMargin{
-    margin:0;
-    border:0;
-    padding: 0;
-    width: 100px;
+    box-sizing: border-box;
     
 }
 

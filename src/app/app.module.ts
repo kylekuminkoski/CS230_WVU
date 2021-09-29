@@ -17,6 +17,7 @@ import { LayoutTradeInsComponent } from './trade-ins-page/layout/layout.componen
 import { AppRoutingModule } from './app-routing.module';
 import { LayoutBodyComponent } from './homebody/layout.component';
 import { CarouselCardComponent } from './components/carouselCards/carouselCards.component';
+import { Card } from './components/carouselCards/cards.model';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,9 @@ import { CarouselCardComponent } from './components/carouselCards/carouselCards.
     LayoutSignInComponent,
     LayoutCartsPageComponent,
     LayoutBodyComponent,
-    CarouselCardComponent 
+    CarouselCardComponent,
+
+
     
   ],
   imports: [

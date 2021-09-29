@@ -3,15 +3,15 @@
 
 <div class = "container-fluid">
     <h2 class = "d-flex justify-content-center topSellerFormat">Top Sellers</h2>
-<div id="carouselExampleControls" class="carousel slide margin" data-bs-ride="carousel">
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner d-flex">
-      <div class="carousel-item active cardMargins justify-content-center">
+
           <div class = "d-flex flex-row" >
-              <div ngFor="let cardvar of Card">
-                <app-carouselcard title={{cardvar.title}} imagePath= {{cardvar.imagePath}}></app-carouselcard>
+              <div class = "px-4"*ngFor="let card of cardss">
+                <app-carouselcard title={{card.title}} imagePath= {{card.imagePath}}></app-carouselcard>
               </div>
 
-    </div>
+   
       
      
     </div>

@@ -11,11 +11,11 @@ import { cards } from './carouselCards/mock-cards';
 })
 export class CarouselComponent {
 
-  cardvar:Card[] = [];
+  cardss:Card[] = [];
     
   constructor(){
-      for(var cardcomp of cards){
-        this.cardvar.push(new Card(cardcomp));
+      for(var card of cards){
+        this.cardss.push(new Card(card));
   
       }
     }

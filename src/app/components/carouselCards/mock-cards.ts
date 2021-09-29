@@ -17,6 +17,6 @@ export const cards = [
     },
     {
         title: "Sony DualSense Wireless Controller",
-        imagePath:"assets/DUELSENSE.webp"
+        imagePath:"assets/DUALSENSE.webp"
     }
 ]

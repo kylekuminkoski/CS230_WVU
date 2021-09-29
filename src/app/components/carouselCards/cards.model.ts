@@ -1,3 +1,5 @@
+
+
 export class Card {
     title:string;
     imagePath:string;
