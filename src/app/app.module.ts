@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { LayoutCartsPageComponent } from './cart-page/layout.component';
@@ -18,6 +19,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { LayoutBodyComponent } from './homebody/layout.component';
 import { CarouselCardComponent } from './components/carouselCards/carouselCards.component';
 import { Card } from './components/carouselCards/cards.model';
+import { UserInfoComponent } from './backend/user-info.component';
 
 @NgModule({
   declarations: [
@@ -36,13 +38,16 @@ import { Card } from './components/carouselCards/cards.model';
     LayoutCartsPageComponent,
     LayoutBodyComponent,
     CarouselCardComponent,
+    UserInfoComponent
 
 
     
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
