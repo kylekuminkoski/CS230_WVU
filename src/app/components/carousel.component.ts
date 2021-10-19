@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
+import { CarouselService } from './carousel.service';
 import { Card } from './carouselCards/cards.model';
-import { cards } from './carouselCards/mock-cards';
 
 
 @Component({
@@ -10,14 +10,40 @@ import { cards } from './carouselCards/mock-cards';
   
 })
 export class CarouselComponent {
+  myCards: Card[] | undefined;
 
+  constructor(private cardInfoService: CarouselService){
+
+   
+
+  }
+  ngOnInit(): void {
+      
+      console.log("Registering showUserInfo as a subscriber");
+      this.showUserInfo();
+
+  }
   cardss:Card[] = [];
+
+  showUserInfo(){
+      this.cardInfoService.getCardInfo().subscribe((data: Card[]) => {
+          console.log(data);
+          this.myCards = data;
+
+          for(const item in this.myCards){
+            this.cardss.push(new Card(this.myCards[item]));
+            
+          }
+      })
+  }
+
+ 
     
-  constructor(){
-      for(var card of cards){
-        this.cardss.push(new Card(card));
-  
-      }
-    }
+ 
+
+   
+
+      
+    
   
 }
