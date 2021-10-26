@@ -18,6 +18,7 @@ export class UserInfoComponent implements OnInit{
         
         console.log("Registering showUserInfo as a subscriber");
         this.showUserInfo();
+        
 
     }
 

@@ -20,6 +20,8 @@ import { LayoutBodyComponent } from './homebody/layout.component';
 import { CarouselCardComponent } from './components/carouselCards/carouselCards.component';
 import { Card } from './components/carouselCards/cards.model';
 import { UserInfoComponent } from './backend/user-info.component';
+import { LoginComponent } from './login/login.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,8 @@ import { UserInfoComponent } from './backend/user-info.component';
     LayoutCartsPageComponent,
     LayoutBodyComponent,
     CarouselCardComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    LoginComponent
 
 
     
@@ -46,7 +49,8 @@ import { UserInfoComponent } from './backend/user-info.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   
   ],
   providers: [],

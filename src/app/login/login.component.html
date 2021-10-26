@@ -1,0 +1,63 @@
+
+<div class="container">
+  <h3 style= "font-size: 34px" class="text border-bottom mt-3" >Create Account</h3>
+  <form #postForm="ngForm" (ngSubmit) = "onUpdateUserInfo(postForm.value)">
+    <div class="input-group">
+    <div class="row">
+    
+        <div class="col">
+            
+            <div class="row ">
+            <label class="form-label text">First name</label>
+
+                <input type="text" class="form-control" ngModel name= "FirstName">
+              
+             
+            </div>
+              
+            <div class="row mt-4">
+                <label class="form-label text">Email Address</label>
+                    <input type="email" class="form-control" ngModel name = "email">
+               
+            </div>
+
+
+           
+           
+        </div>
+        <div class="col">
+            <div class="row">
+                <label class="form-label text">Last Name</label>
+              
+                    <input type="text" class="form-control" ngModel name = "LastName">
+                   
+                 
+                </div>
+                  
+                <div class="row mt-4">
+                    <label class="form-label text">Phone</label>
+                    
+                        <input type="text" class="form-control" ngModel name = "phone">
+                      
+                     
+                </div>
+
+                <div class="row mt-4">
+                  <label class="form-label text">Password</label>
+                 
+                      <input type="password" class="form-control" ngModel name = "password">
+                     
+                    
+              </div>
+                
+              
+             
+    
+        </div>
+    </div>
+  </div>
+ 
+      <button style="background-color:red;" class="btn me-md-2 text-white" type="submit">SUBMIT</button>
+  
+  </form>
+</div>
